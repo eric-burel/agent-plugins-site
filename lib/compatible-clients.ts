@@ -103,6 +103,21 @@ export const compatibleClients: readonly CompatibleClient[] = [
     },
   },
   {
+    name: "Goose",
+    description: "Goose is a general-purpose AI agent that runs on your machine. Supported by the Agentic AI Foundation (AAIF).",
+    homepageUrl: "https://goose-docs.ai/",
+    instructionsUrl: "https://goose-docs.ai/docs/guides/context-engineering/plugins/",
+    logo: {
+      lightSrc: "/images/logos/goose/light.svg",
+      darkSrc: "/images/logos/goose/dark.svg",
+    },
+    supports: {
+      skills: true,
+      mcp: {
+        transports: ["stdio", "streamable-http"],
+      },
+  },
+  {
     name: "Kiro",
     description:
       "Kiro helps you do your best work by bringing structure to AI coding with spec-driven development.",
